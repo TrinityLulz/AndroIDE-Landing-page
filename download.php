@@ -20,7 +20,7 @@ function logDownload() {
     file_put_contents($fileName, $logMessage, FILE_APPEND);
 
     // After logging, you can redirect to the actual file download
-    header('Location: app-release.apk'); // This should be the path to your downloadable APK
+    header('Location: https://download1323.mediafire.com/i7riij900rdgRTBbwCxdQAj5aZX3nzV8NE8tWsnpEHCV60UKLHoqNLOTpeh84Twuyj-usAB_jAI4MX0WTtwgZFfyr-y-cqMdv3pV6rVt0hRl3ErugkXJLGPb0RkSpN2_2DFwT_OWHrkUBe1Z5-eKyBVbBDqrn_n33iAA0QlqN_CyzQ/ksvb6sj8ou0jbfc/app-release.apk'); // This should be the path to your downloadable APK
     exit;
 }
 
